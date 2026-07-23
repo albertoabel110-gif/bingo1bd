@@ -3,4 +3,4 @@ services:
     name: bingoo
     env: python
     buildCommand: "./build.sh"
-    startCommand: "gunicorn django_prueba.wsgi:application"
+    startCommand: "daphne -b 0.0.0.0 -p 10000 django_prueba.asgi:application"
