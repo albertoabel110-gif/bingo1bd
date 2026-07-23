@@ -140,3 +140,5 @@ CELERY_TASK_SERIALIZER = 'json'
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/dashboard/'
 LOGOUT_REDIRECT_URL = '/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
