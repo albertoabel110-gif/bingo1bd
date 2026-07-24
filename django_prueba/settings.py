@@ -30,8 +30,10 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 CSRF_TRUSTED_ORIGINS = [
-    "https://bingoo.onrender.com",
+    "https://bdhojadevida.onrender.com"
 ]
+
+
 
 # Application definition
 
