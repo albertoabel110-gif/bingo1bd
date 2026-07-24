@@ -29,7 +29,9 @@ SECRET_KEY = 'django-insecure-0th2$cc2%5e8yj+^+bo_p$((temmp3t5(+4_nk*+q=nmde!!y@
 DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
-
+CSRF_TRUSTED_ORIGINS = [
+    "https://bingoo.onrender.com",
+]
 
 # Application definition
 
